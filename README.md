@@ -4,9 +4,11 @@
 Use a cloud based machine learning tool such as IBM Watson or Wolfram Language to analyze sentiment across public information such as Twitter or a public database.  Create an application that uses this in a novel and useful way.
  
  
-<b>Functional Requirements:</b>
-Uses a cloud based machine learning tool such as IBM Watson or Wolfram Language
-Ingest text data from at least one public source like Twitter
-Use the machine learning tool to determine the sentiment of the text data (i.e., positive, negative, happy, sad)
-Find at least one interesting use for this sentiment data. (ex. how are people feeling about the election)
+<b>Application Description:</b>
+This application fetches real-time feeds using Meetup's RSVPs with appbase.io which is a hosted data streams API.On the frontend, we use jQuery to create the feed UI and query appbase.io in real-time with different keyword filters. Based on the data fetched from Meetup Sentiment Analysis is done using IBM Bluemix Alchemy API for the comments done for events.
+
+<b>Softwares/Tools Used:</b> Webstorm, Node JS, Javascript, JQuery, appbase.io
+
+<b>API's Used:</b> MeetUp API, Alchemy Sentiment API
+
 											
