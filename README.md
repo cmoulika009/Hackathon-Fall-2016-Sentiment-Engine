@@ -11,4 +11,5 @@ This application fetches real-time feeds using Meetup's RSVPs with appbase.io wh
 
 <b>API's Used:</b> MeetUp API, Alchemy Sentiment API
 
+<img src="https://github.com/cmoulika009/Hackathon-Fall-2016-Sentiment-Engine/blob/master/Documentation/Screenshots/Welcome.jpg">
 											
