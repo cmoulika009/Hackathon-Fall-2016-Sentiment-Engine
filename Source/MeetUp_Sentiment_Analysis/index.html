@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meetup Stream Engine</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="bower_components/appbase-js/browser/appbase.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/typeahead-bundle.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/creative.min.css" rel="stylesheet">
+</head>
+
+<body class="container">
+<br/>
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header" align="center">
+            <a class="navbar-brand page-scroll" style="color:orangered;font-family: Cambria;">Welcome to Meetup Stream Engine</a>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+<br/><br/><br/>
+<div class="row meetup-container">
+    <div class="meetup-filter-container">
+        <div class="block col-xs-12  topic_container">
+            <label class="block_label">Search by topic</label>
+            <div class="tag_name">
+            </div>
+            <div class="full_row">
+                <input type="text" placeholder="search" class="topic_search col-xs-12 tags_search"/>
+                <img src="assets/images/search.png" class="search_thumb">
+            </div>
+        </div>
+    </div>
+    <div class="meetup-record-holder">
+        <div id="record-container" class="container full_row">
+        </div>
+    </div>
+</div>
+
+<!-- For template Start -->
+<div class="hide">
+    <a class="full_row single-record single_record_for_clone" style="width: 680px">
+        <div class="img-container">
+            <img class="record_img" src='' alt='img'/>
+        </div>
+        <div class="text-container full_row">
+            <div class="text-head text-overflow full_row">
+            </div>
+            <div class="text-description text-overflow full_row">
+            </div>
+        </div>
+    </a>
+</div>
+<!-- For template End -->
+<script type="text/javascript" src="app/helper.js"></script>
+<script type="text/javascript" src="app/variable.js"></script>
+<script type="text/javascript" src="app/request.js"></script>
+<script type="text/javascript" src="app/app.js"></script>
+</body>
+</html>
