@@ -32,6 +32,8 @@ meetup.prototype = {
                 if (comments === 'undefined' || comments === 'null') {
                     comments = "neutral";
                 }
+
+                console.log("URL:" + url);
                 console.log("Comm Last:" + comments);
                 surl = "http://gateway-a.watsonplatform.net/calls/text/TextGetTextSentiment?apikey=d0e7bf68cdda677938e6c186eaf2b755ef737cd8&outputMode=json&text=" + comments;
             }
@@ -82,7 +84,7 @@ meetup.prototype = {
         for (i = 0; i < lower; i++) {
             highlight_tags += '<li>' + group_topics[i]['topic_name'] + '</li>';
         }
-        highlight_tags +='<li><b>Sentiment-Positive</b></li>';
+        highlight_tags +='<li style="color:#0044cc"><b><i>Sentiment-Positive</i></b></li>';
         return '<ul class="highlight_tags">' + highlight_tags + '</ul>';
     },
     //create city or topic list items
