@@ -7,9 +7,9 @@ Use a cloud based machine learning tool such as IBM Watson or Wolfram Language t
 <h3>Application Overview</h3>
 This application fetches real-time feeds using Meetup's RSVPs with appbase.io which is a hosted data streams API.On the frontend, we use jQuery to create the feed UI and query appbase.io in real-time with different keyword filters. Based on the data fetched from Meetup Sentiment Analysis is done using IBM Bluemix Alchemy API for the comments done for events.
 
-<h3>Softwares/Tools Used:</h3> Webstorm, Node JS, Javascript, JQuery, appbase.io
+<b>Softwares/Tools Used:</b> Webstorm, Node JS, Javascript, JQuery, appbase.io
 
-<h3>API's Used:</h3> MeetUp API, Alchemy Sentiment API
+<b>API's Used:</b> MeetUp API, Alchemy Sentiment API
 
 <h3>About the Application</h3>
 
@@ -33,3 +33,10 @@ Also the live streaming events are displayed on Google Maps as shown below
 
 <img src="https://github.com/cmoulika009/Hackathon-Fall-2016-Sentiment-Engine/blob/master/Documentation/Screenshots/LocateMaps.jpg">
 											
+<h3>References</h3>
+
+https://www.meetup.com/meetup_api/
+
+http://opensource.appbase.io/
+
+
