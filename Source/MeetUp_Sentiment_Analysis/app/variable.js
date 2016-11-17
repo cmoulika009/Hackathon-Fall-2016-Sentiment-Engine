@@ -81,10 +81,24 @@ meetup.prototype = {
         }
 
         var lower = group_topics.length < 3 ? group_topics.length : 3;
+        var firstTopic = group_topics[0]['topic_name'];
+        if (firstTopic == 'Social')
+            highlight_tags += '<li style="color:greenyellow"><b><i>Sentiment-Neutral</i></b></li>';
+        else if (firstTopic == 'Fun Times')
+            highlight_tags += '<li style="color:greenyellow"><b><i>Sentiment-Neutral</i></b></li>';
+        else if (firstTopic == 'New In Town')
+            highlight_tags += '<li style="color: red"><b><i>Sentiment-Negative</i></b></li>';
+        else if (firstTopic == 'Social Networking')
+            highlight_tags += '<li style="color: red"><b><i>Sentiment-Negative</i></b></li>';
+        else if (firstTopic == 'Outdoors')
+            highlight_tags += '<li style="color: greenyellow"><b><i>Sentiment-Neutral</i></b></li>';
+        else
+            highlight_tags += '<li style="color: #0044cc"><b><i>Sentiment-Positive</i></b></li>';
+
         for (i = 0; i < lower; i++) {
             highlight_tags += '<li>' + group_topics[i]['topic_name'] + '</li>';
         }
-        highlight_tags +='<li style="color:#0044cc"><b><i>Sentiment-Positive</i></b></li>';
+
         return '<ul class="highlight_tags">' + highlight_tags + '</ul>';
     },
     //create city or topic list items
