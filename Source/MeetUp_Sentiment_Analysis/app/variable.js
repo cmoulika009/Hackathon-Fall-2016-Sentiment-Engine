@@ -16,7 +16,7 @@ meetup.prototype = {
             "src": obj.member.photo,
             'onerror': 'this.onerror = null; this.src="' + this.DEFAULT_IMAGE + '"'
         });
-        var url = "https://api.meetup.com/2/event_comments?key=154491821326327843122226686c&event_id=" + obj.event.event_id + "&sign=true"
+        var url = "https://api.meetup.com/2/event_comments?key=35742724795d5b5a78635240605a5766&event_id=" + obj.event.event_id + "&sign=true"
         //console.log(url)
         var comments = "";
         var surl;
