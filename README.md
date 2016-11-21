@@ -33,7 +33,7 @@ Also the live streaming events are displayed on Google Maps as shown below
 
 <img src="https://github.com/cmoulika009/Hackathon-Fall-2016-Sentiment-Engine/blob/master/Documentation/Screenshots/LocateMaps.jpg">
 
-<b>Demo URL:</b> https://www.youtube.com/watch?v=qwG1SFimuyo
+<b>Demo URL:</b> https://youtu.be/QGZibPbqEKY
 											
 <h3>References</h3>
 
